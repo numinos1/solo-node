@@ -55,7 +55,8 @@ limiter.on('failed', async (error, jobInfo) => {
  * Create Limited HTTP get function
  *
  * Note: Ensure the URI is secure. For some reason
- *       the resident uri's are not secure!
+ *       the resident uri's are not secure and
+ *       don't load correctly!
  *
  * @type       {Function}
  */
